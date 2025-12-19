@@ -1,0 +1,3 @@
+[] Set up server with backend
+[] Core featues implements
+[] Create users
