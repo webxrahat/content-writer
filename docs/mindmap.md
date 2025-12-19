@@ -7,4 +7,5 @@
 - admin(private)
 - user(public)
 
-|---|---|
+:--:------:----:
+|name| age | number|
