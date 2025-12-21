@@ -1,41 +1,16 @@
 {
-  "name": "content-writer",
+  "name": "my-bg",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "type": "module",
   "scripts": {
-    "dev": "tsx watch server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/webxrahat/content-writer.git"
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/webxrahat/content-writer/issues"
-  },
-  "homepage": "https://github.com/webxrahat/content-writer#readme",
-  "dependencies": {
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.39.2",
-    "@types/express": "^5.0.6",
-    "@types/node": "^25.0.3",
-    "eslint": "^9.39.2",
-    "nodemon": "^3.1.11",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.50.0",
-    "tsx": "^4.21.0"
-  }
+  "packageManager": "pnpm@10.26.1"
 }
